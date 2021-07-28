@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tshirt Order</title>
+</head>
+
+<body>
+    <h2>Fill in the details</h2>
+    <form>
+        <table cellpadding="20">
+            <tr>
+                <td><strong>Name:</strong></td>
+                <td><input type="text" name="Name" maxlength="50" placeholder="Enter your name">
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Address:</strong></td>
+                <td><input type="text" name="address" maxlength="100" placeholder="Enter your address">
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Contact:</strong></td>
+                <td><input type="number" name="mobile" maxlength="10" placeholder="Enter your mobile no">
+                </td>
+            </tr>
+        </table>
+        <br>
+        <h3>What type of shirt do you want? </h3>
+        <table cellspacing="20">
+            <tr>
+                <td><strong>Select Brand:</strong></td>
+                <td>
+                    <Select name="brand">
+                        <option value="-1"></option>
+                        <option value="1">Only</option>
+                        <option value="2">Zara</option>
+                        <option value="3">H&M</option>
+                        <option value="4">Levis</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Select color:</strong></td>
+                <td>
+                    <Select name="color">
+                        <option value="-1"></option>
+                        <option value="1">Blue</option>
+                        <option value="2">Red</option>
+                        <option value="3">Yellow</option>
+                        <option value="4">Green</option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Select size:</strong></td>
+                <td>
+                    <Select name="color">
+                        <option value="-1"></option>
+                        <option value="1"> XS </option>
+                        <option value="2"> S </option>
+                        <option value="3"> L </option>
+                        <option value="4"> XL </option>
+                    </Select>
+                </td>
+            </tr>
+            <tr>
+                <td><strong>Enter Quantity:</strong></td>
+                <td><input type="number" name="quantity" maxlength="5">
+                </td>
+            </tr>
+            <tr>
+                <td><strong><h3> Payment type:</h3></strong></td>
+            <tr>
+                <td>
+                    <input type="radio" name="Payment">              
+                    Cash on delivery<br>
+                    <input type="radio" name="Payment">
+                    Credit Card<br>
+                    <input type="radio" name="Payment">                    
+                    Debit Card<br>
+                    <input type="radio" name="Payment">                 
+                    Gpay<br>
+                    <input type="radio" name="Payment">                  
+                    Paytm
+                </td>
+            </tr>
+            <tr>
+                <td><button>Order</button></td>
+            </tr>
+        </table>
+    </form>
+    
+</body>
+
+</html>
